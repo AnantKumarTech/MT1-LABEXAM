@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shopping Cart Management</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+      background: #f4f4f9;
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+    }
+    .card {
+      background: #fff;
+      max-width: 620px;
+      padding: 40px;
+      border-radius: 14px;
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+      text-align: center;
+    }
+    h1 { color: #2c3e50; margin: 0 0 12px; }
+    p  { color: #555; line-height: 1.6; }
+    code {
+      background: #eef;
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #2d3e8b;
+    }
+    .badge {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 6px 14px;
+      background: #e7f5ff;
+      color: #1971c2;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>🛒 Shopping Cart Management</h1>
+    <p>
+      Welcome! This page is served using the Node.js
+      <strong>FS Module</strong> through <code>GET /home</code>.
+    </p>
+    <p>
+      Try <code>/cart</code> to view items in JSON, or use
+      <code>POST /add-to-cart</code> to insert a new product.
+    </p>
+    <span class="badge">Served from public/index.html</span>
+  </main>
+</body>
+</html>

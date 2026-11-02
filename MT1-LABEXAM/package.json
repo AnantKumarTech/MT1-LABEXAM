@@ -1,0 +1,22 @@
+{
+  "name": "mt1-labexam",
+  "version": "1.0.0",
+  "description": "Shopping Cart Management Web Application - Full Stack Development MT1 Lab Examination",
+  "type": "module",
+  "main": "httpServer.js",
+  "scripts": {
+    "start:http": "node httpServer.js",
+    "start:express": "node expressApp.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "shopping-cart",
+    "mt1-labexam"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
